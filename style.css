@@ -1,0 +1,257 @@
+/*
+    Theme Name: Ponto de Cultura Caiçaras
+    Theme URI: pontodeculturacaicaras.art.br
+    Author: Agnaldo Junior - Ponto de Cultura Caiçaras
+    Description: Tema para os caiçaras
+    Version: 1.0
+    License: MIT
+    Tags: cultura, liberdade, praia, cataia
+ */
+
+.footer{
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+
+.footer .container {
+    padding-top: 20px;
+}
+
+/* enfeite do menu*/
+.lineUp {
+width: 100%;
+height: 4px;
+margin-top: auto;
+background-color: #079348;
+margin-bottom: 0px;
+}
+
+.lineDown {
+width: 100%;
+background-color: #410f70;
+height: 13px;
+margin-top: -18px;
+margin-bottom: 0px;
+}
+/*fim enfeite do menu*/
+
+/*menu*/
+.navbar-inverse {
+    background-color: white;
+    border-color: white;
+}
+.navbar {
+    border-radius: 0;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #0e0d0d;
+}
+.navbar-inverse .navbar-nav > li > a:HOVER {
+  background-color: #410f70;
+}
+
+.metaslider img {
+    height: 500px !important;
+
+}
+
+.metaslider .caption-wrap {
+  color: white;
+  line-height: 1.4em !important;
+  text-align: center !important;
+  font-size: 28px !important;
+}
+
+/*fim menu*/
+
+/*botão search*/
+.btn-search > .btn-primary {
+    color: white;
+    background-color: #410f70;
+    border-color: #410f70;
+}
+
+/*link categoria*/
+.list-group-item a {
+text-decoration:none;
+color: black;
+}
+.list-group-item a:HOVER {
+    color:#410f70;
+}
+
+ @media (max-width: 768px) {
+
+.navbar-default {
+    margin-top: -62px;
+    margin-bottom: 0px;
+}
+
+.metaslider img {
+    height: 190px !important;
+}
+
+.metaslider .caption-wrap {
+    font-size: 16px !important;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #410f70;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #410f70;
+    background-color: #410f70;
+}
+  }
+
+  /*post-thumb*/
+  .post-thumb img {
+    width: 100%;
+    height: auto;
+  }
+
+.post-excerpt,.post-thumb p {
+  font-size: 20px;
+}
+
+.post-excerp-title a {
+  font-size: 30px;
+  color: #410f70;
+  text-decoration:none;
+
+}
+
+.post-excerp-title a:HOVER {
+color: black;
+ }
+  /*fim*/
+
+  p, h1, h2, h3, h4, h5, a {
+    font-family: MuseoSlab500, Sans-Serif, Arial;
+    text-align: justify;
+}
+
+/*mosaico*/
+/* entire container, keeps perspective */
+.flip-container {
+    perspective: 1000px;
+}
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+    width: 100%;
+    height: 380px;
+}
+
+/* flip speed goes here */
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+    position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.front {
+  background-color: #1b6d85;
+}
+.back {
+    background-color: #3c763d;
+}
+/* front pane, placed above back */
+.front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+    transform: rotateY(180deg);
+}
+
+.flip-container-header {
+  width: 100%;
+  height: 200px;
+  background-color:  #1b6d85;
+}
+/*FIM*/
+/*header logo link*/
+.navbar-default {
+    background-color: white;
+    border-color: white;
+}
+
+.menu-nav > li > h4 > a {
+  color: black;
+  text-decoration:none;
+}
+
+.menu-nav > li > h4 > a:HOVER {
+  color: #410f70;
+}
+
+/*FIM*/
+
+/*sobre*/
+section {
+    width: 100%;
+
+
+}
+.parceiro-logo {
+
+}
+.section-parceiro {
+    background-color: #410f70;
+}
+.section-parceiro > .container >  .img-parceiro:HOVER {
+    background-color: #1b6d85;
+}
+.title-about {
+    color: white;
+    text-transform: uppercase;
+    Line-height: 20px;
+    letter-spacing: 8px;
+    Word-spacing: -9px;
+    font-size: 160%;
+}
+.text-about {
+    color: white;
+    text-transform: uppercase;
+    Line-height: 20px;
+    letter-spacing: 6px;
+    Word-spacing: -15px;
+    font-size: 80%;
+    width: 90%;
+    margin-left: 4%;
+}
+.btn-info {
+    color: #fff;
+    background-color: #410f70;
+    border-color: #fcf8e3;
+    width: 50%;
+    margin-left: 24%;
+    margin-top: 3%;
+}
+
+.btn-info:HOVER {
+    color: #fff;
+    background-color:white;
+    border-color: #410f70;
+    color: #410f70;
+}
+.btn-info.active, .btn-info:active, .open>.dropdown-toggle.btn-info {
+    color: #410f70;
+    background-color: #f5f5f5;
+    border-color: #410f70;
+}
